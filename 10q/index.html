@@ -1,0 +1,99 @@
+<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="data:,"><title>護理師國考選擇題 課堂小考</title><style>
+:root{--ink:#1a1a1a;--muted:#5a5a5a;--rule:#d0d0d0;--accent:#0b5a7a;--pick:#e3f0f6;--warn:#9a3b00;--bg:#eef0f2;--card:#fff}
+*{box-sizing:border-box}
+html{background:var(--bg)}
+body{margin:0;color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;
+ font-size:16px;line-height:1.6;padding-bottom:84px}
+main{max-width:760px;margin:0 auto;padding:16px}
+h1{font-size:21px;margin:8px 0 2px;text-align:center}
+.sub{text-align:center;color:var(--muted);font-size:14px;margin-bottom:14px}
+.card{background:var(--card);border-radius:10px;padding:14px 16px;margin:0 0 12px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.who{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.who label{display:flex;flex-direction:column;font-size:14px;color:var(--muted)}
+.who input{font:inherit;color:var(--ink);padding:8px 10px;border:1px solid var(--rule);border-radius:6px;margin-top:3px}
+.who input:invalid:not(:placeholder-shown){border-color:var(--warn)}
+.rules{font-size:14px;color:var(--muted);margin:8px 0 0}
+h2{font-size:15px;margin:20px 0 8px;padding:3px 10px;border-left:4px solid var(--accent);background:#e4edf1}
+.q .stem{margin:0 0 8px}
+.q .stem b{margin-right:4px}
+.q.miss{outline:2px solid var(--warn);outline-offset:2px}
+.opt{display:flex;gap:10px;align-items:flex-start;padding:8px 10px;margin:4px 0;border:1px solid var(--rule);
+ border-radius:8px;cursor:pointer}
+.opt input{margin:5px 0 0;flex:none;width:18px;height:18px}
+.opt:has(input:checked){background:var(--pick);border-color:var(--accent)}
+.bar{position:fixed;left:0;right:0;bottom:0;background:var(--card);border-top:1px solid var(--rule);
+ padding:10px 16px;display:flex;justify-content:center;gap:16px;align-items:center}
+.bar span{font-size:15px}
+button{font:inherit;padding:9px 22px;border-radius:8px;border:1px solid var(--accent);background:var(--accent);
+ color:#fff;cursor:pointer}
+button.ghost{background:transparent;color:var(--accent)}
+button:disabled{opacity:.5;cursor:default}
+dialog{border:0;border-radius:12px;max-width:440px;width:calc(100% - 32px);padding:20px}
+dialog::backdrop{background:rgba(0,0,0,.35)}
+dialog .acts{display:flex;justify-content:flex-end;gap:10px;margin-top:16px}
+.msg{color:var(--warn)}
+.done{text-align:center}
+.done code{font-size:15px}
+.foot{font-size:12px;color:var(--muted);margin:16px 0}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+@media (max-width:560px){.who{grid-template-columns:1fr}}
+</style></head><body><main><h1>護理師國考選擇題 課堂小考</h1><div class="sub">民國 106–115 年護理師國家考試歷屆試題・單選題 10 題・每題 10 分・滿分 100 分</div><form id="f" autocomplete="off" onsubmit="return false"><div class="card"><div class="who"><label>學號 *<input name="sid" required pattern="[A-Za-z0-9_\-]{1,32}" maxlength="32" placeholder="例如 4A123456" title="只能使用英文字母、數字、- 或 _"></label><label>姓名 *<input name="sname" required maxlength="40" placeholder="姓名"></label><label>班級<input name="klass" maxlength="40" placeholder="班級"></label></div><p class="rules">每題選出一個最適當的答案。作答會暫存在這台裝置，重新整理頁面不會遺失；按「交卷」後才會送出，送出後不能修改。</p></div><h2>基礎醫學(包括解剖學、生理學、病理學、藥理學、微生物學與免疫學)</h2><fieldset class="card q" data-n="1"><p class="stem"><b>1.</b>下列有關腎上腺素（epinephrine）的敘述，何者正確？</p><label class="opt"><input type="radio" name="q1" value="A"><span>(A) 是一種內生性的蛋白質，主要由腎上腺髓質所分泌</span></label><label class="opt"><input type="radio" name="q1" value="B"><span>(B) 在低劑量時，主要呈現 α 腎上腺素受體（α adrenergic receptor）的效應</span></label><label class="opt"><input type="radio" name="q1" value="C"><span>(C) 是治療第一型過敏反應（type I hypersensitivity reaction）的首選用藥</span></label><label class="opt"><input type="radio" name="q1" value="D"><span>(D) 會活化肝臟的α2 腎上腺素受體（α2 adrenergic receptor）而減少肝醣分解</span></label></fieldset><fieldset class="card q" data-n="2"><p class="stem"><b>2.</b>下列何者為目前實驗室中用於確定HIV 感染之試驗？</p><label class="opt"><input type="radio" name="q2" value="A"><span>(A) 東方墨點分析</span></label><label class="opt"><input type="radio" name="q2" value="B"><span>(B) 西方墨點分析</span></label><label class="opt"><input type="radio" name="q2" value="C"><span>(C) 南方墨點分析</span></label><label class="opt"><input type="radio" name="q2" value="D"><span>(D) 北方墨點分析</span></label></fieldset><h2>基本護理學（包括護理原理、護理技術）與護理行政</h2><fieldset class="card q" data-n="3"><p class="stem"><b>3.</b>某護理師和同儕相處融洽，績效考核時主管可能因此給予其較高的分數，屬於下列何種考核偏差？</p><label class="opt"><input type="radio" name="q3" value="A"><span>(A) 霍桑效應（Hawthorne effect）</span></label><label class="opt"><input type="radio" name="q3" value="B"><span>(B) 向日葵效應（sunflower effect）</span></label><label class="opt"><input type="radio" name="q3" value="C"><span>(C) 中央偏誤／集中趨勢（central tendency）</span></label><label class="opt"><input type="radio" name="q3" value="D"><span>(D) 光圈效應／月暈效應（halo effect）</span></label></fieldset><fieldset class="card q" data-n="4"><p class="stem"><b>4.</b>楊先生為癌症病人，今天9AM 給藥時拒絕服用口服藥，護理師在第一時間的反應，下列何者最適當？</p><label class="opt"><input type="radio" name="q4" value="A"><span>(A) 立即通知醫師前來處理病人問題</span></label><label class="opt"><input type="radio" name="q4" value="B"><span>(B) 說明該藥物對癌症具療效，勸病人服用</span></label><label class="opt"><input type="radio" name="q4" value="C"><span>(C) 評估病人拒服原因，必要時聯絡醫師處理</span></label><label class="opt"><input type="radio" name="q4" value="D"><span>(D) 尊重病人決定，將藥物帶回護理站並做紀錄</span></label></fieldset><h2>內外科護理學</h2><fieldset class="card q" data-n="5"><p class="stem"><b>5.</b>有關脊髓攝影術檢查前後之護理措施，下列何者錯誤？</p><label class="opt"><input type="radio" name="q5" value="A"><span>(A) 檢查前需禁食8 小時</span></label><label class="opt"><input type="radio" name="q5" value="B"><span>(B) 檢查前確認是否對碘製劑過敏</span></label><label class="opt"><input type="radio" name="q5" value="C"><span>(C) 水性顯影劑檢查後需立即平躺8 小時</span></label><label class="opt"><input type="radio" name="q5" value="D"><span>(D) 檢查後需補充大量水分</span></label></fieldset><fieldset class="card q" data-n="6"><p class="stem"><b>6.</b>黃女士的動脈血液氣體分析結果為完全代償性代謝性酸中毒，下列敘述何者正確？</p><label class="opt"><input type="radio" name="q6" value="A"><span>(A) pH 7.35、PaCO2 30 mmHg、HCO3- 20 mmHg、PaO2 81 mmHg</span></label><label class="opt"><input type="radio" name="q6" value="B"><span>(B) pH 7.31、PaCO2 28 mmHg、HCO3- 19 mmHg、PaO2 80 mmHg</span></label><label class="opt"><input type="radio" name="q6" value="C"><span>(C) pH 7.32、PaCO2 47 mmHg、HCO3- 23 mmHg、PaO2 82 mmHg</span></label><label class="opt"><input type="radio" name="q6" value="D"><span>(D) pH 7.33、PaCO2 36 mmHg、HCO3- 18 mmHg、PaO2 83 mmHg</span></label></fieldset><h2>產兒科護理學</h2><fieldset class="card q" data-n="7"><p class="stem"><b>7.</b>有關滿15個月大幼兒之動作發展，下列敘述何者正確？</p><label class="opt"><input type="radio" name="q7" value="A"><span>(A) 能正確指出身體的一部分</span></label><label class="opt"><input type="radio" name="q7" value="B"><span>(B) 能重疊6塊積木</span></label><label class="opt"><input type="radio" name="q7" value="C"><span>(C) 不需扶持可獨自行走</span></label><label class="opt"><input type="radio" name="q7" value="D"><span>(D) 會自己洗手並擦乾</span></label></fieldset><fieldset class="card q" data-n="8"><p class="stem"><b>8.</b>護理師執行腹部四段式操作法之主要目的為何？</p><label class="opt"><input type="radio" name="q8" value="A"><span>(A) 測子宮收縮強度</span></label><label class="opt"><input type="radio" name="q8" value="B"><span>(B) 測胎兒心跳</span></label><label class="opt"><input type="radio" name="q8" value="C"><span>(C) 檢查胎產式</span></label><label class="opt"><input type="radio" name="q8" value="D"><span>(D) 測子宮收縮頻率</span></label></fieldset><h2>精神科與社區衛生護理學</h2><fieldset class="card q" data-n="9"><p class="stem"><b>9.</b>造成代謝症候群最主要的因素為：</p><label class="opt"><input type="radio" name="q9" value="A"><span>(A) 遺傳因素</span></label><label class="opt"><input type="radio" name="q9" value="B"><span>(B) 環境因素</span></label><label class="opt"><input type="radio" name="q9" value="C"><span>(C) 生活型態</span></label><label class="opt"><input type="radio" name="q9" value="D"><span>(D) 經濟因素</span></label></fieldset><fieldset class="card q" data-n="10"><p class="stem"><b>10.</b>有關海洛因中毒症狀的敘述，下列何者錯誤？</p><label class="opt"><input type="radio" name="q10" value="A"><span>(A) 瞳孔放大</span></label><label class="opt"><input type="radio" name="q10" value="B"><span>(B) 心跳變慢</span></label><label class="opt"><input type="radio" name="q10" value="C"><span>(C) 昏迷</span></label><label class="opt"><input type="radio" name="q10" value="D"><span>(D) 呼吸抑制</span></label></fieldset></form><div id="done" class="card done" hidden></div><div class="foot">題目來源：考選部考畢試題查詢平臺 https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx 。官方聲明：「本網站資料，歡迎朋友連結使用。但引用時，請註明資料來源並請確保資料之完整（包括本項宣示在內），均不得任意增刪」2018 Ministry of Examination R.O.C.(Taiwan) All rights reserved.</div></main><div class="bar"><span id="progress"></span><button type="button" id="go">交卷</button></div><dialog id="confirm"><h3 style="margin-top:0">確認交卷</h3><p id="dmsg"></p><div class="acts"><button type="button" class="ghost" id="cancel">返回作答</button><button type="button" id="send">確定交卷</button></div></dialog><script type="application/json" id="quiz">{"quiz_id": "d0a1e85efad9", "count": 10}</script><script>
+const Q = JSON.parse(document.getElementById('quiz').textContent);
+const form = document.getElementById('f'), bar = document.getElementById('progress');
+const KEY = 'moex-quiz-' + Q.quiz_id, started = new Date().toISOString();
+const store = {get(){try{return JSON.parse(localStorage.getItem(KEY)||'null')}catch(e){return null}},
+  set(v){try{localStorage.setItem(KEY, JSON.stringify(v))}catch(e){}}, clear(){try{localStorage.removeItem(KEY)}catch(e){}}};
+function answers(){const a={};for(let n=1;n<=Q.count;n++){const c=form.querySelector(`input[name=q${n}]:checked`);a[n]=c?c.value:''}return a}
+function who(){return {student_id:form.sid.value.trim(),name:form.sname.value.trim(),class:form.klass.value.trim()}}
+function progress(){const a=answers(),k=Object.values(a).filter(Boolean).length;bar.textContent=`已作答 ${k} / ${Q.count} 題`;
+  store.set({who:who(),answers:a,started:(store.get()||{}).started||started});return a}
+const saved = store.get();
+if (saved && !saved.submitted) {
+  form.sid.value=saved.who.student_id||''; form.sname.value=saved.who.name||''; form.klass.value=saved.who.class||'';
+  for (const [n,v] of Object.entries(saved.answers||{})) if (v) { const r=form.querySelector(`input[name=q${n}][value=${v}]`); if(r) r.checked=true; }
+}
+form.addEventListener('input', () => { progress(); document.querySelectorAll('.q.miss').forEach(e=>{if(e.querySelector('input:checked'))e.classList.remove('miss')}); });
+progress();
+const dlg = document.getElementById('confirm'), dmsg = document.getElementById('dmsg');
+document.getElementById('go').addEventListener('click', () => {
+  const w = who();
+  if (!/^[A-Za-z0-9_-]{1,32}$/.test(w.student_id)) { form.sid.focus(); form.sid.reportValidity(); return; }
+  if (!w.name) { form.sname.focus(); form.sname.reportValidity(); return; }
+  const miss = Object.entries(answers()).filter(([,v])=>!v).map(([n])=>n);
+  document.querySelectorAll('.q').forEach(e=>e.classList.toggle('miss', miss.includes(e.dataset.n)));
+  dmsg.innerHTML = `學號 <b>${w.student_id}</b>　姓名 <b>${w.name.replace(/[<&>]/g,'')}</b><br>` + (miss.length
+    ? `<span class=msg>尚有 ${miss.length} 題未作答：第 ${miss.join('、')} 題。</span><br>未作答視為答錯。`
+    : '全部題目都已作答。') + '<br>交卷後不能再修改答案。';
+  dlg.showModal();
+});
+document.getElementById('cancel').addEventListener('click', () => dlg.close());
+document.getElementById('send').addEventListener('click', async () => {
+  const btn = document.getElementById('send'); btn.disabled = true;
+  const sheet = {...who(), quiz_id:Q.quiz_id, started_at:(store.get()||{}).started||started,
+                 submitted_at:new Date().toISOString(), answers:answers()};
+  let res = null, err = '';
+  if (location.protocol.startsWith('http')) {
+    try { const r = await fetch('submit', {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(sheet)});
+          res = await r.json(); if (!r.ok) { err = res.error || ('HTTP ' + r.status); res = null; } }
+    catch (e) { err = '無法連線到收卷伺服器'; }
+  } else err = '此頁面不是由收卷伺服器開啟';
+  dlg.close(); btn.disabled = false;
+  if (!res && !err.startsWith('無法連線') && location.protocol.startsWith('http')) { alertBox(err); return; }
+  if (!res) {  // offline fallback: hand the student the sheet as a file to turn in
+    const blob = new Blob([JSON.stringify(sheet, null, 1)], {type:'application/json'});
+    const a = Object.assign(document.createElement('a'), {href:URL.createObjectURL(blob), download:`${sheet.student_id}.json`});
+    document.body.append(a); a.click(); a.remove();
+  }
+  store.set({submitted:true}); form.querySelectorAll('input').forEach(i=>i.disabled=true);
+  document.querySelectorAll('.q.miss').forEach(e=>e.classList.remove('miss'));
+  document.querySelector('.bar').remove();
+  const d = document.getElementById('done'); d.hidden = false;
+  d.innerHTML = res
+    ? `<h2>已交卷</h2><p>學號 <code>${res.student_id}</code>・已作答 ${res.answered} / ${Q.count} 題<br>收卷時間 ${res.received_at.slice(0,19).replace('T',' ')}</p>`
+    : `<h2>已產生答案卷檔案</h2><p class=msg>${err}，答案未自動上傳。</p><p>已下載 <code>${sheet.student_id}.json</code>，請依老師指示繳交此檔案。</p>`;
+  d.scrollIntoView({behavior:'smooth'});
+});
+function alertBox(t){dmsg.innerHTML=`<span class=msg>交卷失敗：${t.replace(/[<&>]/g,'')}</span>`;
+  document.getElementById('send').hidden=true;document.getElementById('cancel').textContent='關閉';dlg.showModal();
+  dlg.addEventListener('close',()=>{document.getElementById('send').hidden=false;document.getElementById('cancel').textContent='返回作答'},{once:true})}
+</script></body></html>
